@@ -44,7 +44,8 @@ echo "--------------------------------------------------"
 
 echo "Criando estrutura de usuários"
 
-useradd carlos -c "Carlos da Silva" -s /bin/bash -m -G GRP_ADM
+useradd carlos -c "Carlos da Silva" -s /bin/bash -m -G GRP_ADM -p $(openssl passwd -crypt Senha123)
+passwd carlos -e
 
 
 useradd maria -c "Maria da Silva" -s /bin/bash -m -G GRP_ADM

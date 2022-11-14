@@ -6,9 +6,9 @@ Infraestrutura de criação de diretórios, usuários e permissões
 
 ## Regras
 
-- [ ] Excluir diretórios, arquivos, grupos e usuários criados anteriormente;
+- [x] Excluir diretórios, arquivos, grupos e usuários criados anteriormente;
 
-- [ ] Todo provisionamento deve ser feito em um arquivo do tipo Bash Script;
+- [x] Todo provisionamento deve ser feito em um arquivo do tipo Bash Script;
 
 - [ ] O dono de todos os diretórios criados será o usuário root;
 
@@ -20,8 +20,10 @@ Infraestrutura de criação de diretórios, usuários e permissões
 
 - [ ] Subir arquivo de script criado para a sua conta no GitHub.
 
-## Passo a passo definido para execução da criação do script
+## Passo a passo definido para execução do script
 
-- [ ] Passo 1
-- [ ] Passo 2
-- [ ] Passo 3
+- [x] Criar estrutura de pastas
+- [ ] Criar grupos
+- [ ] Criar permissões dos grupos
+- [ ] Criar usuários
+- [ ] Testar permissões dos usuários

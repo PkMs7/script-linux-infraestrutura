@@ -44,12 +44,9 @@ echo "--------------------------------------------------"
 
 echo "Criando estrutura de usuários"
 
-useradd carlos -c "Carlos da Silva" -s /bin/bash -m -G GRP_ADM -p $(openssl passwd -crypt Senha123)
-passwd carlos -e
-
+useradd carlos -c "Carlos da Silva" -s /bin/bash -m -G GRP_ADM
 
 useradd maria -c "Maria da Silva" -s /bin/bash -m -G GRP_ADM
-
 
 useradd joao_ -c "João da Silva" -s /bin/bash -m -G GRP_ADM
 
@@ -57,9 +54,7 @@ useradd joao_ -c "João da Silva" -s /bin/bash -m -G GRP_ADM
 
 useradd debora -c "Debora da Silva" -s /bin/bash -m -G GRP_VEN
 
-
 useradd sebastiana -c "Sebastiana da Silva" -s /bin/bash -m -G GRP_VEN
-
 
 useradd roberto -c "Roberto da Silva" -s /bin/bash -m -G GRP_VEN
 
@@ -67,9 +62,7 @@ useradd roberto -c "Roberto da Silva" -s /bin/bash -m -G GRP_VEN
 
 useradd josefina -c "Josefina da Silva" -s /bin/bash -m -G GRP_SEC
 
-
 useradd amanda -c "Amanda da Silva" -s /bin/bash -m -G GRP_SEC
-
 
 useradd rogerio -c "Rogerio da Silva" -s /bin/bash -m -G GRP_SEC
 

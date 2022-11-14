@@ -6,7 +6,7 @@ userdel -r -f carlos
 
 userdel -r -f maria
 
-userdel -r -f joao
+userdel -r -f joao_
 
 
 userdel -r -f debora
@@ -39,9 +39,9 @@ echo "--------------------------------------------------"
 
 echo "Deletando estrutura de grupos e seus diretórios"
 
-groupadd GRP_ADM
-groupadd GRP_VEN
-groupadd GRP_SEC
+groupdel GRP_ADM
+groupdel GRP_VEN
+groupdel GRP_SEC
 
 echo "Exclusão de grupos finalizada"
 

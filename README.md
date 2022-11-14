@@ -27,3 +27,4 @@ Infraestrutura de criação de diretórios, usuários e permissões
 - [ ] Criar permissões dos grupos
 - [ ] Criar usuários
 - [ ] Testar permissões dos usuários
+- [ ] <b>Bônus:</b> Deletar estrutura
